@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>MDB4作业</title>
+  <!-- MDB icon -->
+  <link rel="icon" href="data:image/jpeg;base64,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" type="image/x-icon">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <!-- Material Design Bootstrap -->
+  <link rel="stylesheet" href="css/mdb.min.css">
+  <!-- Your custom styles (optional) -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--Main Navigation-->
+  <header>
+    <!--Navbar-->
+    <nav class="navbar navbar-expand-md navbar-dark indigo black">
+      <div class="container">
+        <!-- Navbar brand -->
+        <a class="navbar-brand" href="#">Navbar</a>
+        <!-- Collapse button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#basicExampleNav"
+          aria-controls="basicExampleNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Collapsible content -->
+        <div class="collapse navbar-collapse" id="basicExampleNav">
+          <!-- Links -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <!-- Dropdown -->
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">Dropdown</a>
+              <div class="dropdown-menu dropdown-primary" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+          </ul>
+          <!-- Links -->
+          <form class="form-inline">
+            <div class="md-form my-0">
+              <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            </div>
+          </form>
+        </div>
+        <!-- Collapsible content -->
+      </div>
+    </nav>
+    <!--/.Navbar-->
+  </header>
+  <!--Main Navigation-->
+
+  <main class="mt-5">
+    <!--Main container-->
+    <div class="container">
+      <!--Grid row 1-->
+      <div class="row">
+        <!--Grid column 1-->
+        <div class="col-md-7 mb-4">
+          <div class="view overlay z-depth-1-half">
+            <img src="https://th.bing.com/th/id/R33674725d9ae34f86e3835ae30b20afe?rik=Pb3C9e5%2b%2b3a9Vw&riu=http%3a%2f%2fwww.desktx.com%2fd%2ffile%2fwallpaper%2fscenery%2f20180626%2f4c8157d07c14a30fd76f9bc110b1314e.jpg&ehk=9tpmnrrRNi0eBGq3CnhwvuU8PPmKuy1Yma0zL%2ba14T0%3d&risl=&pid=ImgRaw" class="card-img-top" alt="">
+            <div class="mask rgba-white-light"></div>
+          </div>
+        </div>
+        <!--Grid column-->
+        <!--Grid column 2-->
+        <div class="col-md-5 mb-4">
+          <h2>Enjoy your life</h2>
+          <hr>
+          <p>Life is full of confusing and disordering Particular time,a particular location,Do the arranged thing of ten million time in the brain,Step by step ,the life is hard to avoid delicacy and stiffness No enthusiasm forever,No unexpected happening of surprising and pleasing So,only silently ask myself in mind Next happiness,when will come?</p>
+          <a href="http://www.crisis.org.cn/" class="btn btn-white">Get it now!</a>
+        </div>
+        <!--Grid column-->
+      </div>
+      <!--Grid row-->
+      <!--Grid row 2-->
+      <div class="row">
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-12 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://tse4-mm.cn.bing.net/th/id/OIP.uPx-FbZ4nf2U05kCoJ7_1QHaE8?w=252&h=180&c=7&o=5&pid=1.7" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">Romain Rolland</h4>
+              <!--Text-->
+              <p class="card-text">Il n'ya qu'un héroïsme au monde : c'est de voir le monde tel qu'il est et de l'aimer." Romain Rolland..</p>
+              <a href="https://baike.baidu.com/item/%E7%BD%97%E6%9B%BC%C2%B7%E7%BD%97%E5%85%B0" class="btn btn-white">Button</a>
+            </div>
+
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://tse2-mm.cn.bing.net/th/id/OIP.xsA-3qUw6cqmd8nRfxk6TQHaEK?w=299&h=180&c=7&o=5&pid=1.7" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">William Shakespeare</h4>
+              <!--Text-->
+              <p class="card-text">love is the season Yizhenyin sigh; The eyes hAVe it purified the lovers of Mars; love it aroused wAVes of tears. It is the wisdom of madness, choking bitterness, it does not tip of honey..</p>
+              <a href="https://baike.baidu.com/item/%E5%A8%81%E5%BB%89%C2%B7%E8%8E%8E%E5%A3%AB%E6%AF%94%E4%BA%9A/975277?fromtitle=%E8%8E%8E%E5%A3%AB%E6%AF%94%E4%BA%9A&fromid=121079" class="btn btn-white">Button</a>
+            </div>
+
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-4 col-md-6 mb-4">
+
+          <!--Card-->
+          <div class="card">
+
+            <!--Card image-->
+            <div class="view overlay">
+              <img src="https://tse4-mm.cn.bing.net/th/id/OIP.PTZJ51e7xutqxF_1nXpdawHaEK?w=287&h=183&c=7&o=5&pid=1.7" class="card-img-top"
+                alt="">
+              <a href="#">
+                <div class="mask rgba-white-slight"></div>
+              </a>
+            </div>
+
+            <!--Card content-->
+            <div class="card-body">
+              <!--Title-->
+              <h4 class="card-title">Plato</h4>
+              <!--Text-->
+              <p class="card-text">Simple and quiet life is actually unhappy, so I just embrace moments of lasting feeling is not happy at all, so I only believe in moments.</p>
+              <a href="https://baike.baidu.com/item/%E6%9F%8F%E6%8B%89%E5%9B%BE/85471" class="btn btn-white">Button</a>
+            </div>
+
+          </div>
+          <!--/.Card-->
+
+        </div>
+        <!--Grid column-->
+
+      </div>
+      <!--Grid row-->
+    </div>
+    <!--Main container-->
+  </main>
+
+  <!-- Footer -->
+  <footer class="page-footer indigo pt-4 mt-4 black">
+
+    <!-- Footer Links -->
+    <div class="container text-center text-md-left">
+
+      <!-- Grid row -->
+      <div class="row">
+
+        <!-- Grid column -->
+        <div class="col-md-6 mt-md-0 mt-3">
+
+          <!-- Content -->
+          <h5 class="text-uppercase">Footer Content</h5>
+          <p>Here you can use rows and columns here to organize your footer content.</p>
+
+        </div>
+        <!-- Grid column -->
+
+        <hr class="clearfix w-100 d-md-none pb-3">
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled">
+
+            <li>
+              <a href="http://www.cqjtu.edu.cn/">重庆交通大学</a>
+            </li>
+            <li>
+              <a href="https://qige.io">棋歌教学网</a>
+            </li>
+            <li>
+              <a href="https://gitee.com">码云</a>
+            </li>
+            <li>
+              <a href="http://www.baidu.com">百度</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+        <!-- Grid column -->
+        <div class="col-md-3 mb-md-0 mb-3">
+
+          <!-- Links -->
+          <h5 class="text-uppercase">Links</h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="https://www.youtube.com/">YouTube</a>
+            </li>
+            <li>
+              <a href="https://github.com/">Github</a>
+            </li>
+            <li>
+              <a href="https://google.cn">Google</a>
+            </li>
+            <li>
+              <a href="http://www.nba.com">NBA</a>
+            </li>
+          </ul>
+
+        </div>
+        <!-- Grid column -->
+
+      </div>
+      <!-- Grid row -->
+
+    </div>
+    <!-- Footer Links -->
+
+    <!-- Copyright -->
+    <div class="footer-copyright text-center py-3">© 2018 Copyright:
+      <a href="https://mdbootstrap.com/education/bootstrap/"> MDBootstrap.com</a>
+    </div>
+    <!-- Copyright -->
+
+  </footer>
+  <!-- Footer -->I
+
+  <!-- jQuery -->
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Your custom scripts (optional) -->
+  <script type="text/javascript"></script>
+
+</body>
+
+</html>
